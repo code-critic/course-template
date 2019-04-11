@@ -18,3 +18,6 @@
 
 # only README.md file will be allowed
 !**/results/README.md
+
+# ignore logs starting with dot (.)
+.*.log

@@ -8,7 +8,7 @@ A structure is as follows:
 ```txt
 2019/problems
 ├── problem-1
-│   ├── intput
+│   ├── input
 │   │   ├── case-1
 │   │   ├── case-2
 │   │   └── case-n
@@ -17,7 +17,7 @@ A structure is as follows:
 │       ├── case-2
 │       └── case-n
 ├── problem-2
-│   ├── intput
+│   ├── input
 │   │   ├── case-1
 │   │   ├── case-2
 │   │   └── case-n
@@ -26,7 +26,7 @@ A structure is as follows:
 │       ├── case-2
 │       └── case-n
 └── problem-n
-    ├── intput
+    ├── input
     │   ├── case-1
     │   ├── case-2
     │   └── case-n

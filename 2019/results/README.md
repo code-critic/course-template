@@ -9,7 +9,7 @@ A structure is as follows:
 2019/results
 ├── problem-1
 │   ├── user-A
-│   │   ├── intput
+│   │   ├── input
 │   │   │   ├── case-1
 │   │   │   ├── case-2
 │   │   │   └── case-n
@@ -18,7 +18,7 @@ A structure is as follows:
 │   │       ├── case-2
 │   │       └── case-n
 │   ├── user-B
-│   │   ├── intput
+│   │   ├── input
 │   │   │   ├── case-1
 │   │   │   ├── case-2
 │   │   │   └── case-n
@@ -27,7 +27,7 @@ A structure is as follows:
 │   │       ├── case-2
 │   │       └── case-n
 │   └── user-C
-│       ├── intput
+│       ├── input
 │       │   ├── case-1
 │       │   ├── case-2
 │       │   └── case-n
