@@ -1,0 +1,10 @@
+name:     TST
+desc:     A course example
+disabled: false
+access:   everyone
+
+teachers:
+- jan.hybs
+- jan.brezina
+
+students: []
