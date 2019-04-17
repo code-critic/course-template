@@ -16,12 +16,12 @@
   tests:
     - id: case-1.s              # by adding extension .s
                                 # the input will be part of a repository
-      timeout: 5.0              # value in seconds, allowed duration of the solution
+      timeout: 0.2              # value in seconds, allowed duration of the solution
                                 # this value is scaled by
                                 # programming language scale factor (cfg/langs.yaml)
 
     - id: case-2                # this file will be ignored by the git and won't 
-                                # be part of this repository
+      timeout: 5.0              # be part of this repository
                                 # this usually means, the file will be created 
                                 # using reference script
       size: 50                  # if size is specified, the will **can** be generated
@@ -33,7 +33,7 @@
 
     - id: case-3
       random: 5                 # this value indicate that there will be generated
-                                # several input files (5 in this case)
+      timeout: 0.2              # several input files (5 in this case)
                                 # this will then generate subcases
                                 # case-3.1, case-3.2, ..., case-3.5
                                 # all cases will be tested when solution is submitted
@@ -41,7 +41,7 @@
                                 # in this case the reference script will be called:
                                 #     python3 main.py -p 15 -r
 
-
+- id: problem-2
 # to add more tests simple repeat the structure
 # - id: foobar
 #   ...
