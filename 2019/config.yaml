@@ -41,9 +41,15 @@
                                 # in this case the reference script will be called:
                                 #     python3 main.py -p 15 -r
 
-# - id: problem-2
-# to add more tests simple repeat the structure
-# - id: foobar
-#   ...
-#   tests:
-#     - id: ...
+
+- id: LIBTEST
+  name: Knihovna (pokus)
+  avail: 2020-04-26 23:59:00
+  unittest: true
+  libname: lib.py
+  reference:
+    name: main.py
+    lang: PY-367
+  tests:
+    - id: TEST_00
+      test: main.py
