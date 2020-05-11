@@ -4,7 +4,7 @@ disabled: true
 access:   everyone
 
 teachers:
-- jan.hybs
-- jan.brezina
+- id: jan.hybs
+- id: jan.brezina
 
 students: []
