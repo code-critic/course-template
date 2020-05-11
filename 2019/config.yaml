@@ -2,16 +2,16 @@
   name:     Answer is 42!       # what student will see
   timeout:  120                 # max time per solution, default is 60
   avail:    2020-03-11 16:00:00 # problem will be active until YYYY-mm-dd HH:MM:SS
-  reference: main.py            # reference file, which should be in the repository
+  #reference: main.py            # reference file, which should be in the repository
                                 # for sake of consistency the name should be **main.<extension>**
                                 # such as main.py, main.cc, main.java, ...
                                 # in this short format, the language will be detected
                                 # automatically (which may be incorrect, i.e.
                                 # can't differentiate between python3 and python2)
 
-  # reference:                  # you can also use long format, where you specify 
-    # name: main.py             # name of the script
-    # lang: PY-367              # and language ID from (cfg/langs.yaml) explicitely
+  reference:                  # you can also use long format, where you specify 
+    name: main.py             # name of the script
+    lang: PY-367              # and language ID from (cfg/langs.yaml) explicitely
 
   tests:
     - id: case-1.s              # by adding extension .s
@@ -41,7 +41,7 @@
                                 # in this case the reference script will be called:
                                 #     python3 main.py -p 15 -r
 
-- id: problem-2
+# - id: problem-2
 # to add more tests simple repeat the structure
 # - id: foobar
 #   ...
