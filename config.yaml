@@ -1,6 +1,6 @@
 name:     TST
 desc:     A course example
-disabled: true
+disabled: false
 access:   everyone
 
 teachers:
