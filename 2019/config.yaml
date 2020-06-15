@@ -1,7 +1,7 @@
 - id:       problem-1           # directory name!
   name:     Answer is 42!       # what student will see
   timeout:  120                 # max time per solution, default is 60
-  avail:    2020-03-11 16:00:00 # problem will be active until YYYY-mm-dd HH:MM:SS
+  avail:    2020-09-11 16:00:00 # problem will be active until YYYY-mm-dd HH:MM:SS
   #reference: main.py            # reference file, which should be in the repository
                                 # for sake of consistency the name should be **main.<extension>**
                                 # such as main.py, main.cc, main.java, ...
