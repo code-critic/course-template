@@ -1,0 +1,22 @@
+- id: MATLABTEST
+
+  name:  Matlab test
+  avail:    2021-02-18 23:59:00
+  unittest: true
+  libname:  kvadracoef.m
+
+  reference:
+    hidden: true  # if true, this file not be visible to the students (unittest only)
+    name: main.m
+    lang: MATLAB
+  
+  assets:
+    - foo.txt
+
+  export:
+    - figure.png
+
+  tests:
+    - id: TEST_00
+      test: main.m
+      timeout:  30
