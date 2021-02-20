@@ -1,0 +1,10 @@
+teachers:
+  - id: jan.hybs
+    students: 
+      - id: jan.hybs
+      - id: pavel.exner
+    
+  - id: pavel.exner
+    students: 
+      - id: jan.hybs
+      - id: pavel.exner

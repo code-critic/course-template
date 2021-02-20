@@ -1,0 +1,40 @@
+- id: MATLABTEST
+
+  name:     Matlab test
+  avail:    2021-03-10 14:40:00
+  since:    2019-02-18 23:59:00
+  unittest: true
+  libname:  kvadracoef.m
+
+  reference:
+    hidden: true  # if true, this file not be visible to the students (unittest only)
+    name: main.m
+    lang: MATLAB
+  
+  assets:
+    - foo.txt
+
+  export:
+    - figure.png
+
+  tests:
+    - id: TEST_00
+      test: main.m
+      timeout:  30
+
+- id: COLLABTEST
+  name: Collaboration test
+
+  reference:
+    name: main.py
+    lang: PY-367
+
+  collaboration:
+    enabled: true
+    min-size: 1
+    max-size: 5
+
+  tests:
+    - id: TEST_00
+      test: main.m
+      timeout:  30
