@@ -35,6 +35,5 @@
     max-size: 5
 
   tests:
-    - id: TEST_00
-      test: main.m
+    - id: case-1.s
       timeout:  30
