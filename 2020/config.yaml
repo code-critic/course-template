@@ -17,7 +17,7 @@
   export:
     - figure.png
 
-  tests
+  tests:
     - id: TEST_00
       test: main.m
       timeout:  30
