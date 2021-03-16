@@ -3,6 +3,7 @@ teachers:
     students: 
       - id: jan.hybs
       - id: pavel.exner
+      - id: jan.brezina
     
   - id: pavel.exner
     students: 
